@@ -1,0 +1,1215 @@
+
+CWD:  C:\k330tot\gpt 
+
+XMLFile= partition.xml
+OutputToCreate None
+PhysicalPartitionNumber 0
+verbose False
+
+
+	Looking for  partition.xml
+	----------------------------------------
+	Searching  C:\k330tot\gpt
+
+	**Found partition.xml (16959 bytes)
+
+Found a physical_partition, NumPhyPartitions=1
+
+len(PhyPartition)=0
+ 
+Found a file tag 'modem.mbn'
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+LABEL: modem
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: sbl1
+Testing if GUID= DEA0BA2C-CBDD-4805-B4F9-F428251C3E98
+Looking to validate GUID= DEA0BA2C-CBDD-4805-B4F9-F428251C3E98
+Found more advanced type
+** CONVERTED GUID "DEA0BA2C-CBDD-4805-B4F9-F428251C3E98" is FOUND --> 0x983E1C2528F4F9B44805CBDDDEA0BA2C
+Found a file tag 'sbl1.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: tz
+Testing if GUID= A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4
+Looking to validate GUID= A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4
+Found more advanced type
+** CONVERTED GUID "A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" is FOUND --> 0xF4A471AC682F08BA4B1C40B8A053AA7F
+Found a file tag 'tz.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: rpm
+Testing if GUID= 098DF793-D712-413D-9D4E-89D711772228
+Looking to validate GUID= 098DF793-D712-413D-9D4E-89D711772228
+Found more advanced type
+** CONVERTED GUID "098DF793-D712-413D-9D4E-89D711772228" is FOUND --> 0x28227711D7894E9D413DD712098DF793
+Found a file tag 'rpm.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: aboot
+Testing if GUID= 400FFDCD-22E0-47E7-9A23-F16ED9382388
+Looking to validate GUID= 400FFDCD-22E0-47E7-9A23-F16ED9382388
+Found more advanced type
+** CONVERTED GUID "400FFDCD-22E0-47E7-9A23-F16ED9382388" is FOUND --> 0x882338D96EF1239A47E722E0400FFDCD
+Found a file tag 'aboot.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: sbl1bak
+Testing if GUID= AA68AC7B-49D5-4E53-957D-82AB439BCB2C
+Looking to validate GUID= AA68AC7B-49D5-4E53-957D-82AB439BCB2C
+Found more advanced type
+** CONVERTED GUID "AA68AC7B-49D5-4E53-957D-82AB439BCB2C" is FOUND --> 0x2CCB9B43AB827D954E5349D5AA68AC7B
+Found a file tag 'sbl1bak.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: tzbak
+Testing if GUID= E6C8667F-8044-44A7-B1D9-BEFE88AAD86C
+Looking to validate GUID= E6C8667F-8044-44A7-B1D9-BEFE88AAD86C
+Found more advanced type
+** CONVERTED GUID "E6C8667F-8044-44A7-B1D9-BEFE88AAD86C" is FOUND --> 0x6CD8AA88FEBED9B144A78044E6C8667F
+Found a file tag 'tzbak.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: rpmbak
+Testing if GUID= 680CA584-238C-4E0F-8438-15F43257A055
+Looking to validate GUID= 680CA584-238C-4E0F-8438-15F43257A055
+Found more advanced type
+** CONVERTED GUID "680CA584-238C-4E0F-8438-15F43257A055" is FOUND --> 0x55A05732F41538844E0F238C680CA584
+Found a file tag 'rpmbak.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: abootbak
+Testing if GUID= C993E3DF-FE66-49C9-8D8D-7C681C4DCAE9
+Looking to validate GUID= C993E3DF-FE66-49C9-8D8D-7C681C4DCAE9
+Found more advanced type
+** CONVERTED GUID "C993E3DF-FE66-49C9-8D8D-7C681C4DCAE9" is FOUND --> 0xE9CA4D1C687C8D8D49C9FE66C993E3DF
+Found a file tag 'abootbak.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: modemst1
+Testing if GUID= EBBEADAF-22C9-E33B-8F5D-0E81686A68CB
+Looking to validate GUID= EBBEADAF-22C9-E33B-8F5D-0E81686A68CB
+Found more advanced type
+** CONVERTED GUID "EBBEADAF-22C9-E33B-8F5D-0E81686A68CB" is FOUND --> 0xCB686A68810E5D8FE33B22C9EBBEADAF
+Found a file tag 'modemst1.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: modemst2
+Testing if GUID= 0A288B1F-22C9-E33B-8F5D-0E81686A68CB
+Looking to validate GUID= 0A288B1F-22C9-E33B-8F5D-0E81686A68CB
+Found more advanced type
+** CONVERTED GUID "0A288B1F-22C9-E33B-8F5D-0E81686A68CB" is FOUND --> 0xCB686A68810E5D8FE33B22C90A288B1F
+Found a file tag 'modemst2.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: ssd
+Testing if GUID= 2C86E742-745E-4FDD-BFD8-B6A7AC638772
+Looking to validate GUID= 2C86E742-745E-4FDD-BFD8-B6A7AC638772
+Found more advanced type
+** CONVERTED GUID "2C86E742-745E-4FDD-BFD8-B6A7AC638772" is FOUND --> 0x728763ACA7B6D8BF4FDD745E2C86E742
+Found a file tag 'ssd.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: DDR
+Testing if GUID= 20A0C19C-286A-42FA-9CE7-F64C3226A794
+Looking to validate GUID= 20A0C19C-286A-42FA-9CE7-F64C3226A794
+Found more advanced type
+** CONVERTED GUID "20A0C19C-286A-42FA-9CE7-F64C3226A794" is FOUND --> 0x94A726324CF6E79C42FA286A20A0C19C
+Found a file tag 'DDR.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: fsg
+Testing if GUID= 638FF8E2-22C9-E33B-8F5D-0E81686A68CB
+Looking to validate GUID= 638FF8E2-22C9-E33B-8F5D-0E81686A68CB
+Found more advanced type
+** CONVERTED GUID "638FF8E2-22C9-E33B-8F5D-0E81686A68CB" is FOUND --> 0xCB686A68810E5D8FE33B22C9638FF8E2
+Found a file tag 'fsg.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: fsc
+Testing if GUID= 57B90A16-22C9-E33B-8F5D-0E81686A68CB
+Looking to validate GUID= 57B90A16-22C9-E33B-8F5D-0E81686A68CB
+Found more advanced type
+** CONVERTED GUID "57B90A16-22C9-E33B-8F5D-0E81686A68CB" is FOUND --> 0xCB686A68810E5D8FE33B22C957B90A16
+Found a file tag 'fsc.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: sec
+Testing if GUID= 303E6AC3-AF15-4C54-9E9B-D9A8FBECF401
+Looking to validate GUID= 303E6AC3-AF15-4C54-9E9B-D9A8FBECF401
+Found more advanced type
+** CONVERTED GUID "303E6AC3-AF15-4C54-9E9B-D9A8FBECF401" is FOUND --> 0x1F4ECFBA8D99B9E4C54AF15303E6AC3
+Found a file tag 'sec.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: keystore
+Testing if GUID= DE7D4029-0F5B-41C8-AE7E-F6C023A02B33
+Looking to validate GUID= DE7D4029-0F5B-41C8-AE7E-F6C023A02B33
+Found more advanced type
+** CONVERTED GUID "DE7D4029-0F5B-41C8-AE7E-F6C023A02B33" is FOUND --> 0x332BA023C0F67EAE41C80F5BDE7D4029
+Found a file tag 'keystore.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: encrypt
+Testing if GUID= 323EF595-AF7A-4AFA-8060-97BE72841BB9
+Looking to validate GUID= 323EF595-AF7A-4AFA-8060-97BE72841BB9
+Found more advanced type
+** CONVERTED GUID "323EF595-AF7A-4AFA-8060-97BE72841BB9" is FOUND --> 0xB91B8472BE9760804AFAAF7A323EF595
+Found a file tag 'encrypt.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: eksst
+Testing if GUID= 45864011-CF89-46E6-A445-85262E065604
+Looking to validate GUID= 45864011-CF89-46E6-A445-85262E065604
+Found more advanced type
+** CONVERTED GUID "45864011-CF89-46E6-A445-85262E065604" is FOUND --> 0x456062E268545A446E6CF8945864011
+Found a file tag 'eksst.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+Found a file tag 'devinfo.mbn'
+Testing if GUID= 1B81E7E6-F50D-419B-A739-2AEEF8DA3335
+Looking to validate GUID= 1B81E7E6-F50D-419B-A739-2AEEF8DA3335
+Found more advanced type
+** CONVERTED GUID "1B81E7E6-F50D-419B-A739-2AEEF8DA3335" is FOUND --> 0x3533DAF8EE2A39A7419BF50D1B81E7E6
+LABEL: devinfo
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+Found a file tag 'config.mbn'
+Testing if GUID= 91B72D4D-71E0-4CBF-9B8E-236381CFF17A
+Looking to validate GUID= 91B72D4D-71E0-4CBF-9B8E-236381CFF17A
+Found more advanced type
+** CONVERTED GUID "91B72D4D-71E0-4CBF-9B8E-236381CFF17A" is FOUND --> 0x7AF1CF8163238E9B4CBF71E091B72D4D
+LABEL: config
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+Found a file tag 'spare1.mbn'
+Testing if GUID= BFECABEF-1280-48D7-9F27-BDE474CF4FAA
+Looking to validate GUID= BFECABEF-1280-48D7-9F27-BDE474CF4FAA
+Found more advanced type
+** CONVERTED GUID "BFECABEF-1280-48D7-9F27-BDE474CF4FAA" is FOUND --> 0xAA4FCF74E4BD279F48D71280BFECABEF
+LABEL: spare1
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: fota
+Testing if GUID= 86A7CB80-84E1-408C-99AB-694F1A410FC7
+Looking to validate GUID= 86A7CB80-84E1-408C-99AB-694F1A410FC7
+Found more advanced type
+** CONVERTED GUID "86A7CB80-84E1-408C-99AB-694F1A410FC7" is FOUND --> 0xC70F411A4F69AB99408C84E186A7CB80
+Found a file tag 'fota.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: rct
+Testing if GUID= 8ED8AE95-597F-4C8A-A5BD-A7FF8E4DFAA9
+Looking to validate GUID= 8ED8AE95-597F-4C8A-A5BD-A7FF8E4DFAA9
+Found more advanced type
+** CONVERTED GUID "8ED8AE95-597F-4C8A-A5BD-A7FF8E4DFAA9" is FOUND --> 0xA9FA4D8EFFA7BDA54C8A597F8ED8AE95
+Found a file tag 'rct.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: spare2
+Testing if GUID= BFECABEF-1280-48D7-9F27-BDE474CF4FAA
+Looking to validate GUID= BFECABEF-1280-48D7-9F27-BDE474CF4FAA
+Found more advanced type
+** CONVERTED GUID "BFECABEF-1280-48D7-9F27-BDE474CF4FAA" is FOUND --> 0xAA4FCF74E4BD279F48D71280BFECABEF
+Found a file tag 'spare2.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: raw_resources
+Testing if GUID= 4627AE27-CFEF-48A1-88FE-99C3509ADE26
+Looking to validate GUID= 4627AE27-CFEF-48A1-88FE-99C3509ADE26
+Found more advanced type
+** CONVERTED GUID "4627AE27-CFEF-48A1-88FE-99C3509ADE26" is FOUND --> 0x26DE9A50C399FE8848A1CFEF4627AE27
+Found a file tag 'raw_resources.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: raw_resourcesbak
+Testing if GUID= C1DAB2CF-697D-4665-B43D-00BA47487528
+Looking to validate GUID= C1DAB2CF-697D-4665-B43D-00BA47487528
+Found more advanced type
+** CONVERTED GUID "C1DAB2CF-697D-4665-B43D-00BA47487528" is FOUND --> 0x28754847BA003DB44665697DC1DAB2CF
+Found a file tag 'raw_resourcesbak.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: drm
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'drm.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: sns
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'sns.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: misc
+Testing if GUID= 82ACC91F-357C-4A68-9C8F-689E1B1A23A1
+Looking to validate GUID= 82ACC91F-357C-4A68-9C8F-689E1B1A23A1
+Found more advanced type
+** CONVERTED GUID "82ACC91F-357C-4A68-9C8F-689E1B1A23A1" is FOUND --> 0xA1231A1B9E688F9C4A68357C82ACC91F
+Found a file tag 'misc.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: persist
+Testing if GUID= 6C95E238-E343-4BA8-B489-8681ED22AD0B
+Looking to validate GUID= 6C95E238-E343-4BA8-B489-8681ED22AD0B
+Found more advanced type
+** CONVERTED GUID "6C95E238-E343-4BA8-B489-8681ED22AD0B" is FOUND --> 0xBAD22ED818689B44BA8E3436C95E238
+Found a file tag 'persist.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: laf
+Testing if GUID= 98523EC6-90FE-4C67-B50A-0FC59ED6F56D
+Looking to validate GUID= 98523EC6-90FE-4C67-B50A-0FC59ED6F56D
+Found more advanced type
+** CONVERTED GUID "98523EC6-90FE-4C67-B50A-0FC59ED6F56D" is FOUND --> 0x6DF5D69EC50F0AB54C6790FE98523EC6
+Found a file tag 'laf.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: boot
+Testing if GUID= 20117F86-E985-4357-B9EE-374BC1D8487D
+Looking to validate GUID= 20117F86-E985-4357-B9EE-374BC1D8487D
+Found more advanced type
+** CONVERTED GUID "20117F86-E985-4357-B9EE-374BC1D8487D" is FOUND --> 0x7D48D8C14B37EEB94357E98520117F86
+Found a file tag 'boot.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: recovery
+Testing if GUID= 9D72D4E4-9958-42DA-AC26-BEA7A90B0434
+Looking to validate GUID= 9D72D4E4-9958-42DA-AC26-BEA7A90B0434
+Found more advanced type
+** CONVERTED GUID "9D72D4E4-9958-42DA-AC26-BEA7A90B0434" is FOUND --> 0x34040BA9A7BE26AC42DA99589D72D4E4
+Found a file tag 'recovery.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: factory
+Testing if GUID= 20117F86-E985-4357-B9EE-374BC1D8487D
+Looking to validate GUID= 20117F86-E985-4357-B9EE-374BC1D8487D
+Found more advanced type
+** CONVERTED GUID "20117F86-E985-4357-B9EE-374BC1D8487D" is FOUND --> 0x7D48D8C14B37EEB94357E98520117F86
+Found a file tag 'factory.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: mpt
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'mpt.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: system
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'system.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: cache
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'cache.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: userdata
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'userdata.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+ 
+LABEL: grow
+Testing if GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Looking to validate GUID= EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Found more advanced type
+** CONVERTED GUID "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" is FOUND --> 0xC79926B7B668C0874433B9E5EBD0A0A2
+Found a file tag 'grow.mbn'
+========================================
+storing at 0
+Adding PartitionCollection to "PhyPartition" of size 0
+HashInstructions['WRITE_PROTECT_BOUNDARY_IN_KB']    =32768
+HashInstructions['ALIGN_BOUNDARY_IN_KB']            =32768
+HashInstructions['GROW_LAST_PARTITION_TO_FILL_DISK']=True
+HashInstructions['DISK_SIGNATURE']=0x0
+len(PhyPartition)= 1
+MinSectorsNeeded=0
+
+==============================================================================
+GPT GUID discovered in XML file, Output will be GPT
+==============================================================================
+
+
+==============================================================================
+OutputToCreate ===> 'gpt'
+==============================================================================
+
+
+
+Making GUID Partitioning Table (GPT)
+
+
+On PHY Partition 0 that has 40 partitions
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+1 of 40 "modem" (readonly=false) and size=65536KB (64MB) (131072 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 34 with size 64.00 MB (131072 sectors) and LastLBA=131105 (0x20021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+
+===============================================================================
+This partition array entry (0) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA2, absolute byte address 1024 (0x400)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0x79F239108EB4454BD273AC26AD6E7B02
+**** FirstLBA=34 and LastLBA=131105 and size is 131072 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+2 of 40 "sbl1" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 131106 with size 0.50 MB (1024 sectors) and LastLBA=132129 (0x20421)
+
+PartitionTypeGUID	0x983E1C2528F4F9B44805CBDDDEA0BA2C
+UniquePartitionGUID	0xD4012B85AA4CB562368ADCECD07818C3
+**** FirstLBA=131106 and LastLBA=132129 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+3 of 40 "tz" (readonly=false) and size=1024KB (1MB) (2048 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 132130 with size 1.00 MB (2048 sectors) and LastLBA=134177 (0x20C21)
+
+PartitionTypeGUID	0xF4A471AC682F08BA4B1C40B8A053AA7F
+UniquePartitionGUID	0x75793F3F40595225B125C1D3067AB681
+**** FirstLBA=132130 and LastLBA=134177 and size is 2048 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+4 of 40 "rpm" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 134178 with size 0.50 MB (1024 sectors) and LastLBA=135201 (0x21021)
+
+PartitionTypeGUID	0x28227711D7894E9D413DD712098DF793
+UniquePartitionGUID	0xE0BB74327CEC3CE131266F4A18C1DBA2
+**** FirstLBA=134178 and LastLBA=135201 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+5 of 40 "aboot" (readonly=false) and size=2048KB (2MB) (4096 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 135202 with size 2.00 MB (4096 sectors) and LastLBA=139297 (0x22021)
+
+PartitionTypeGUID	0x882338D96EF1239A47E722E0400FFDCD
+
+===============================================================================
+This partition array entry (4) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA3, absolute byte address 1536 (0x600)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0x7398BD098ED6A762D251D927AC31EE6F
+**** FirstLBA=135202 and LastLBA=139297 and size is 4096 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+6 of 40 "sbl1bak" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 139298 with size 0.50 MB (1024 sectors) and LastLBA=140321 (0x22421)
+
+PartitionTypeGUID	0x2CCB9B43AB827D954E5349D5AA68AC7B
+UniquePartitionGUID	0xB7FE257C47836858D49216E9FFC0F26F
+**** FirstLBA=139298 and LastLBA=140321 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+7 of 40 "tzbak" (readonly=false) and size=1024KB (1MB) (2048 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 140322 with size 1.00 MB (2048 sectors) and LastLBA=142369 (0x22C21)
+
+PartitionTypeGUID	0x6CD8AA88FEBED9B144A78044E6C8667F
+UniquePartitionGUID	0x6DAB85BA8FF23CDC6ABEE183D9FBE4F5
+**** FirstLBA=140322 and LastLBA=142369 and size is 2048 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+8 of 40 "rpmbak" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 142370 with size 0.50 MB (1024 sectors) and LastLBA=143393 (0x23021)
+
+PartitionTypeGUID	0x55A05732F41538844E0F238C680CA584
+UniquePartitionGUID	0xEAE06FEAE152169B165BA9DADC25C939
+**** FirstLBA=142370 and LastLBA=143393 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+9 of 40 "abootbak" (readonly=false) and size=2048KB (2MB) (4096 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 143394 with size 2.00 MB (4096 sectors) and LastLBA=147489 (0x24021)
+
+PartitionTypeGUID	0xE9CA4D1C687C8D8D49C9FE66C993E3DF
+
+===============================================================================
+This partition array entry (8) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA4, absolute byte address 2048 (0x800)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xB11657A8FE181AE2ABB7E7FD04FD4432
+**** FirstLBA=143394 and LastLBA=147489 and size is 4096 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+10 of 40 "modemst1" (readonly=false) and size=1536KB (1MB) (3072 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 147490 with size 1.50 MB (3072 sectors) and LastLBA=150561 (0x24C21)
+
+PartitionTypeGUID	0xCB686A68810E5D8FE33B22C9EBBEADAF
+UniquePartitionGUID	0xDB6FC02A52F6D4BC12EDC41047553035
+**** FirstLBA=147490 and LastLBA=150561 and size is 3072 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+11 of 40 "modemst2" (readonly=false) and size=1536KB (1MB) (3072 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 150562 with size 1.50 MB (3072 sectors) and LastLBA=153633 (0x25821)
+
+PartitionTypeGUID	0xCB686A68810E5D8FE33B22C90A288B1F
+UniquePartitionGUID	0xAC9F82D30D35BB61F02DC86A12AA72CF
+**** FirstLBA=150562 and LastLBA=153633 and size is 3072 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+12 of 40 "ssd" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 153634 with size 0.50 MB (1024 sectors) and LastLBA=154657 (0x25C21)
+
+PartitionTypeGUID	0x728763ACA7B6D8BF4FDD745E2C86E742
+UniquePartitionGUID	0x9BB65C3889E8654CFAEAE2AEC7A3CBA
+**** FirstLBA=153634 and LastLBA=154657 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+13 of 40 "DDR" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 154658 with size 0.50 MB (1024 sectors) and LastLBA=155681 (0x26021)
+
+PartitionTypeGUID	0x94A726324CF6E79C42FA286A20A0C19C
+
+===============================================================================
+This partition array entry (12) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA5, absolute byte address 2560 (0xA00)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xE01F0A5C5CDAA5F62DDBDFCFAE3E317C
+**** FirstLBA=154658 and LastLBA=155681 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+14 of 40 "fsg" (readonly=false) and size=1536KB (1MB) (3072 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 155682 with size 1.50 MB (3072 sectors) and LastLBA=158753 (0x26C21)
+
+PartitionTypeGUID	0xCB686A68810E5D8FE33B22C9638FF8E2
+UniquePartitionGUID	0xBF35CECFDCEFB047B6DB3C586F01C531
+**** FirstLBA=155682 and LastLBA=158753 and size is 3072 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+15 of 40 "fsc" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 158754 with size 0.50 MB (1024 sectors) and LastLBA=159777 (0x27021)
+
+PartitionTypeGUID	0xCB686A68810E5D8FE33B22C957B90A16
+UniquePartitionGUID	0xF0AE8D4631A719027AD44EB64FBE68F6
+**** FirstLBA=158754 and LastLBA=159777 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+16 of 40 "sec" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 159778 with size 0.50 MB (1024 sectors) and LastLBA=160801 (0x27421)
+
+PartitionTypeGUID	0x1F4ECFBA8D99B9E4C54AF15303E6AC3
+UniquePartitionGUID	0x17B1490778844C656D03620F7F8C33A1
+**** FirstLBA=159778 and LastLBA=160801 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+17 of 40 "keystore" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 160802 with size 0.50 MB (1024 sectors) and LastLBA=161825 (0x27821)
+
+PartitionTypeGUID	0x332BA023C0F67EAE41C80F5BDE7D4029
+
+===============================================================================
+This partition array entry (16) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA6, absolute byte address 3072 (0xC00)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xC53F9C394886A07EE8F704AF94F35162
+**** FirstLBA=160802 and LastLBA=161825 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+18 of 40 "encrypt" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 161826 with size 0.50 MB (1024 sectors) and LastLBA=162849 (0x27C21)
+
+PartitionTypeGUID	0xB91B8472BE9760804AFAAF7A323EF595
+UniquePartitionGUID	0xD87A77B036D99CC5AA5802314661FCA6
+**** FirstLBA=161826 and LastLBA=162849 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+19 of 40 "eksst" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 162850 with size 0.50 MB (1024 sectors) and LastLBA=163873 (0x28021)
+
+PartitionTypeGUID	0x456062E268545A446E6CF8945864011
+UniquePartitionGUID	0x891DB171EC43FFA1664225D97C7D3DB4
+**** FirstLBA=162850 and LastLBA=163873 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+20 of 40 "devinfo" (readonly=false) and size=1024KB (1MB) (2048 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 163874 with size 1.00 MB (2048 sectors) and LastLBA=165921 (0x28821)
+
+PartitionTypeGUID	0x3533DAF8EE2A39A7419BF50D1B81E7E6
+UniquePartitionGUID	0xA85D30AC22095AB1822C64180EEDE131
+**** FirstLBA=163874 and LastLBA=165921 and size is 2048 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+21 of 40 "config" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 165922 with size 0.50 MB (1024 sectors) and LastLBA=166945 (0x28C21)
+
+PartitionTypeGUID	0x7AF1CF8163238E9B4CBF71E091B72D4D
+
+===============================================================================
+This partition array entry (20) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA7, absolute byte address 3584 (0xE00)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xC35F82C222BEB2CDF755C2D1A84E8FC
+**** FirstLBA=165922 and LastLBA=166945 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+22 of 40 "spare1" (readonly=false) and size=6656KB (6MB) (13312 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 166946 with size 6.50 MB (13312 sectors) and LastLBA=180257 (0x2C021)
+
+PartitionTypeGUID	0xAA4FCF74E4BD279F48D71280BFECABEF
+UniquePartitionGUID	0x371F6E835094A5259AB53956E4C6B3D1
+**** FirstLBA=166946 and LastLBA=180257 and size is 13312 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+23 of 40 "fota" (readonly=false) and size=6144KB (6MB) (12288 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 180258 with size 6.00 MB (12288 sectors) and LastLBA=192545 (0x2F021)
+
+PartitionTypeGUID	0xC70F411A4F69AB99408C84E186A7CB80
+UniquePartitionGUID	0x1E77484CECFB692E95ECAEDCB02229D7
+**** FirstLBA=180258 and LastLBA=192545 and size is 12288 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+24 of 40 "rct" (readonly=false) and size=512KB (0MB) (1024 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 192546 with size 0.50 MB (1024 sectors) and LastLBA=193569 (0x2F421)
+
+PartitionTypeGUID	0xA9FA4D8EFFA7BDA54C8A597F8ED8AE95
+UniquePartitionGUID	0x64B6C11DC1FDA43D060FB922DE549636
+**** FirstLBA=192546 and LastLBA=193569 and size is 1024 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+25 of 40 "spare2" (readonly=false) and size=1536KB (1MB) (3072 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 193570 with size 1.50 MB (3072 sectors) and LastLBA=196641 (0x30021)
+
+PartitionTypeGUID	0xAA4FCF74E4BD279F48D71280BFECABEF
+
+===============================================================================
+This partition array entry (24) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA8, absolute byte address 4096 (0x1000)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xFF775EB2EEC0E1A9231892F9B780257
+**** FirstLBA=193570 and LastLBA=196641 and size is 3072 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+26 of 40 "raw_resources" (readonly=false) and size=1024KB (1MB) (2048 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 196642 with size 1.00 MB (2048 sectors) and LastLBA=198689 (0x30821)
+
+PartitionTypeGUID	0x26DE9A50C399FE8848A1CFEF4627AE27
+UniquePartitionGUID	0xF846B97AE25C366D669D8436509BD8D7
+**** FirstLBA=196642 and LastLBA=198689 and size is 2048 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+27 of 40 "raw_resourcesbak" (readonly=false) and size=1024KB (1MB) (2048 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 198690 with size 1.00 MB (2048 sectors) and LastLBA=200737 (0x31021)
+
+PartitionTypeGUID	0x28754847BA003DB44665697DC1DAB2CF
+UniquePartitionGUID	0x8BC690D5C5D3B9CA6FF07EA70A146332
+**** FirstLBA=198690 and LastLBA=200737 and size is 2048 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+28 of 40 "drm" (readonly=false) and size=6144KB (6MB) (12288 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 200738 with size 6.00 MB (12288 sectors) and LastLBA=213025 (0x34021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+UniquePartitionGUID	0x2EB1F43FC745FA1224AF40AEA76C204A
+**** FirstLBA=200738 and LastLBA=213025 and size is 12288 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+29 of 40 "sns" (readonly=false) and size=6144KB (6MB) (12288 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 213026 with size 6.00 MB (12288 sectors) and LastLBA=225313 (0x37021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+
+===============================================================================
+This partition array entry (28) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA9, absolute byte address 4608 (0x1200)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xA03D441E8F2EDAC663647205997A5011
+**** FirstLBA=213026 and LastLBA=225313 and size is 12288 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+30 of 40 "misc" (readonly=false) and size=10240KB (10MB) (20480 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 225314 with size 10.00 MB (20480 sectors) and LastLBA=245793 (0x3C021)
+
+PartitionTypeGUID	0xA1231A1B9E688F9C4A68357C82ACC91F
+UniquePartitionGUID	0x33BDF6ADC048653DC8DC0CDBEBA96FB7
+**** FirstLBA=225314 and LastLBA=245793 and size is 20480 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+31 of 40 "persist" (readonly=false) and size=8192KB (8MB) (16384 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 245794 with size 8.00 MB (16384 sectors) and LastLBA=262177 (0x40021)
+
+PartitionTypeGUID	0xBAD22ED818689B44BA8E3436C95E238
+UniquePartitionGUID	0x2DFE159F73943F80EE53895680345528
+**** FirstLBA=245794 and LastLBA=262177 and size is 16384 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+32 of 40 "laf" (readonly=false) and size=16384KB (16MB) (32768 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 262178 with size 16.00 MB (32768 sectors) and LastLBA=294945 (0x48021)
+
+PartitionTypeGUID	0x6DF5D69EC50F0AB54C6790FE98523EC6
+UniquePartitionGUID	0x87D0F86B57D0B80E7365EB09B7767555
+**** FirstLBA=262178 and LastLBA=294945 and size is 32768 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+33 of 40 "boot" (readonly=false) and size=16384KB (16MB) (32768 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 294946 with size 16.00 MB (32768 sectors) and LastLBA=327713 (0x50021)
+
+PartitionTypeGUID	0x7D48D8C14B37EEB94357E98520117F86
+
+===============================================================================
+This partition array entry (32) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA10, absolute byte address 5120 (0x1400)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0xCF8683CE156E32376FA74E701C8A08F4
+**** FirstLBA=294946 and LastLBA=327713 and size is 32768 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+34 of 40 "recovery" (readonly=false) and size=16384KB (16MB) (32768 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 327714 with size 16.00 MB (32768 sectors) and LastLBA=360481 (0x58021)
+
+PartitionTypeGUID	0x34040BA9A7BE26AC42DA99589D72D4E4
+UniquePartitionGUID	0xA2E4AEEDE780F54ED764AB5E10CAC467
+**** FirstLBA=327714 and LastLBA=360481 and size is 32768 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+35 of 40 "factory" (readonly=false) and size=24576KB (24MB) (49152 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 360482 with size 24.00 MB (49152 sectors) and LastLBA=409633 (0x64021)
+
+PartitionTypeGUID	0x7D48D8C14B37EEB94357E98520117F86
+UniquePartitionGUID	0x22D46890EAB3DD698692178B59BE37EC
+**** FirstLBA=360482 and LastLBA=409633 and size is 49152 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+36 of 40 "mpt" (readonly=false) and size=8192KB (8MB) (16384 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 409634 with size 8.00 MB (16384 sectors) and LastLBA=426017 (0x68021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+UniquePartitionGUID	0xBBDACED1A751642D209AB21D60BD1ED
+**** FirstLBA=409634 and LastLBA=426017 and size is 16384 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+37 of 40 "system" (readonly=false) and size=2584576KB (2524MB) (5169152 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 426018 with size 2524.00 MB (5169152 sectors) and LastLBA=5595169 (0x556021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+
+===============================================================================
+This partition array entry (36) is a multiple of 4 and must begin on a boundary of size 512 bytes
+This partition array entry is at LBA11, absolute byte address 5632 (0x1600)
+NOTE: LBA0 is protective MBR, LBA1 is Primary GPT Header, LBA2 beginning of Partition Array
+===============================================================================
+
+UniquePartitionGUID	0x88687CCBF43124EBCC45D2DD18B211F4
+**** FirstLBA=426018 and LastLBA=5595169 and size is 5169152 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+38 of 40 "cache" (readonly=false) and size=204800KB (200MB) (409600 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 5595170 with size 200.00 MB (409600 sectors) and LastLBA=6004769 (0x5BA021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+UniquePartitionGUID	0xAD68DDA58974CB3B6DD1534F61802099
+**** FirstLBA=5595170 and LastLBA=6004769 and size is 409600 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+39 of 40 "userdata" (readonly=false) and size=4616192KB (4508MB) (9232384 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+	At sector location 6004770 with size 4508.00 MB (9232384 sectors) and LastLBA=15237153 (0xE88021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+UniquePartitionGUID	0x176F168E4F663B1572B162F833533FE4
+**** FirstLBA=6004770 and LastLBA=15237153 and size is 9232384 sectors
+
+==============================================================================
+ _   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-._   ("-.
+   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )   )
+  (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"   (_,-"
+==============================================================================
+
+
+40 of 40 "grow" (readonly=false) and size=8175KB (7MB) (16350 sectors with 512 bytes/sector)
+
+	This partition is *NOT* readonly
+
+THIS IS THE *LAST* PARTITION
+
+Means patching instructions go here
+PhyPartition[k][j]['size_in_kb'] set to 0
+LastLBA= 15237154
+FirstLBA= 15237154
+
+	At sector location 15237154 with size 0.00 MB (0 sectors) and LastLBA=15237153 (0xE88021)
+
+PartitionTypeGUID	0xC79926B7B668C0874433B9E5EBD0A0A2
+UniquePartitionGUID	0x60B58F036FF66139CC7F3C90DA3B20C2
+**** FirstLBA=15237154 and LastLBA=15237153 and size is 0 sectors
+
+Created "gpt_main0.bin"			<-- Primary GPT partition tables + protective MBR
+Created "gpt_backup0.bin"		<-- Backup GPT partition tables
+Created "gpt_both0.bin" 		<-- you can run 'perl parseGPT.pl gpt_both0.bin'
+
+Created "rawprogram0.xml"	<-- YOUR partition information is HERE
+Created "rawprogram0_BLANK.xml"	<-- Wipe out your images with this file (if needed for testing)
+Created "patch0.xml"		<-- Tailor your partition tables to YOUR device with this file
+
+Created "zeros_1sector.bin"		<-- full of binary zeros - used by "wipe" rawprogram files
+Created "zeros_33sectors.bin"		<-- full of binary zeros - used by "wipe" rawprogram files
+Created "wipe_rawprogram_PHY0.xml"	<-- Used to *wipe/erase* partition information
+Created "wipe_rawprogram_PHY1.xml"	<-- Used to *wipe/erase* partition information
+Created "wipe_rawprogram_PHY2.xml"	<-- Used to *wipe/erase* partition information
+Created "wipe_rawprogram_PHY4.xml"	<-- Used to *wipe/erase* partition information
+Created "wipe_rawprogram_PHY5.xml"	<-- Used to *wipe/erase* partition information
+Created "wipe_rawprogram_PHY6.xml"	<-- Used to *wipe/erase* partition information
+Created "wipe_rawprogram_PHY7.xml"	<-- Used to *wipe/erase* partition information

@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+	<configuration>
+		<!-- Primary GPT header: -->
+		<!-- MD5: 54d1378aa95542f84feba16868acb0b4 -->
+		<!-- Signature: EFI PART -->
+		<!-- Revision: 65536 -->
+		<!-- Header Size: 92 -->
+		<!-- CRC32 of header: 5BC4E3E4 (VALID) => Real: 5BC4E3E4 -->
+		<!-- Current LBA: 0x00000001 -->
+		<!-- Backup LBA: 0x00E8FFFF -->
+		<!-- First usable LBA for partitions: 0x00000022 -->
+		<!-- Last usable LBA for partitions: 0x00E8FFDE -->
+		<!-- Disk GUID: 98101B32-BBE2-4BF2-A06E-2BB33D000C20 -->
+		<!-- Partition entries starting LBA: 0x00000002 -->
+		<!-- Number of partition entries: 40 -->
+		<!-- Size of partition entry: 0x00000080 -->
+		<!-- CRC32 of partition array: 0x23468549 -->
+		<parser_instructions>
+			<!-- NOTE: entries here are used by the parser when generating output -->
+			<!-- NOTE: each filename must be on it's own line as in variable=value-->
+			WRITE_PROTECT_BOUNDARY_IN_KB = 32768
+			GROW_LAST_PARTITION_TO_FILL_DISK = true
+		</parser_instructions>
+
+		<!-- NOTE: "physical_partition" are listed in order and apply to devices such as eMMC cards that have (for example) 3 physical partitions -->
+		<!-- This is physical partition 0 -->
+		<physical_partition>
+			<!-- NOTE: Define information for each partition, which will be created in order listed here -->
+			<!-- NOTE: Place all "readonly=true" partitions side by side for optimum space usage -->
+			<!-- NOTE: If OPTIMIZE_READONLY_PARTITIONS=true, then partitions won't be in the order listed here -->
+			<!--       they will instead be placed side by side at the beginning of the disk -->
+
+			<!-- Partition table: -->
+				<!-- MD5: 809a0f633cf13d90f21494e7ca6c21cd -->
+				<!-- WARNING!! CRC32 Check : 0D4C7942 (INVALID) -->
+
+			<!-- #01 -->
+			<!-- First LBA: 16384 / Disk Offset: 8388608 -->
+			<!-- Last LBA : 147455 / Disk Offset: 75496960 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: C7E4F067-876F-F4D0-3465-2981CA839F89 -->
+			<partition label="modem" size_in_kb="65536" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" filename="modem.mbn"/>
+
+			<!-- #02 -->
+			<!-- First LBA: 147456 / Disk Offset: 75497472 -->
+			<!-- Last LBA : 148479 / Disk Offset: 76021248 -->
+			<!-- SBL1 partition | Qualcomm -->
+			<!-- GUID: FB7FE420-5F3A-406F-15C6-293515DE94CA -->
+			<partition label="sbl1" size_in_kb="512" type="DEA0BA2C-CBDD-4805-B4F9-F428251C3E98" bootable="false" system="true" filename="sbl1.mbn"/>
+
+			<!-- #03 -->
+			<!-- First LBA: 148480 / Disk Offset: 76021760 -->
+			<!-- Last LBA : 150527 / Disk Offset: 77069824 -->
+			<!-- QSEE partition | Qualcomm -->
+			<!-- GUID: C2C524BE-0594-75D6-62EE-7D2094FA62A3 -->
+			<partition label="tz" size_in_kb="1024" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" bootable="false" system="true" filename="tz.mbn"/>
+
+			<!-- #04 -->
+			<!-- First LBA: 150528 / Disk Offset: 77070336 -->
+			<!-- Last LBA : 151551 / Disk Offset: 77594112 -->
+			<!-- RPM partition | Qualcomm -->
+			<!-- GUID: DB7A2ECC-EFF9-3DBB-2A66-6B4918AFE3AB -->
+			<partition label="rpm" size_in_kb="512" type="098DF793-D712-413D-9D4E-89D711772228" bootable="false" system="true" filename="rpm.mbn"/>
+
+			<!-- #05 -->
+			<!-- First LBA: 151552 / Disk Offset: 77594624 -->
+			<!-- Last LBA : 155647 / Disk Offset: 79691264 -->
+			<!-- APPSBL partition | Qualcomm -->
+			<!-- GUID: 1BA1BF0C-9ED3-5154-88B4-F285FCA17A43 -->
+			<partition label="aboot" size_in_kb="2048" type="400FFDCD-22E0-47E7-9A23-F16ED9382388" bootable="false" system="true" filename="aboot.mbn"/>
+
+			<!-- #06 -->
+			<!-- First LBA: 155648 / Disk Offset: 79691776 -->
+			<!-- Last LBA : 156671 / Disk Offset: 80215552 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: 4AD1BFE9-465D-9D0A-DD96-1F26446D6EB9 -->
+			<partition label="sbl1bak" size_in_kb="512" type="AA68AC7B-49D5-4E53-957D-82AB439BCB2C" bootable="false" system="true" filename="sbl1bak.mbn"/>
+
+			<!-- #07 -->
+			<!-- First LBA: 156672 / Disk Offset: 80216064 -->
+			<!-- Last LBA : 158719 / Disk Offset: 81264128 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: A799417D-201D-6F63-F95F-74F155EFD5E6 -->
+			<partition label="tzbak" size_in_kb="1024" type="E6C8667F-8044-44A7-B1D9-BEFE88AAD86C" bootable="false" system="true" filename="tzbak.mbn"/>
+
+			<!-- #08 -->
+			<!-- First LBA: 158720 / Disk Offset: 81264640 -->
+			<!-- Last LBA : 159743 / Disk Offset: 81788416 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: 9CC27B53-00E4-0711-2B27-5E700998392A -->
+			<partition label="rpmbak" size_in_kb="512" type="680CA584-238C-4E0F-8438-15F43257A055" bootable="false" system="true" filename="rpmbak.mbn"/>
+
+			<!-- #09 -->
+			<!-- First LBA: 159744 / Disk Offset: 81788928 -->
+			<!-- Last LBA : 163839 / Disk Offset: 83885568 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: CAB1888C-1C3E-9B3E-9B88-399367BB7950 -->
+			<partition label="abootbak" size_in_kb="2048" type="C993E3DF-FE66-49C9-8D8D-7C681C4DCAE9" bootable="false" system="true" filename="abootbak.mbn"/>
+
+			<!-- #10 -->
+			<!-- First LBA: 163840 / Disk Offset: 83886080 -->
+			<!-- Last LBA : 166911 / Disk Offset: 85458432 -->
+			<!-- MODEMST1 partition | Qualcomm -->
+			<!-- GUID: 295D2A8D-04A5-22B1-6FA7-971857D2273A -->
+			<partition label="modemst1" size_in_kb="1536" type="EBBEADAF-22C9-E33B-8F5D-0E81686A68CB" bootable="false" system="true" filename="modemst1.mbn"/>
+
+			<!-- #11 -->
+			<!-- First LBA: 166912 / Disk Offset: 85458944 -->
+			<!-- Last LBA : 169983 / Disk Offset: 87031296 -->
+			<!-- MODEMST2 partition | Qualcomm -->
+			<!-- GUID: B035CBD8-70C4-C851-F1AF-480C46437A85 -->
+			<partition label="modemst2" size_in_kb="1536" type="0A288B1F-22C9-E33B-8F5D-0E81686A68CB" bootable="false" system="true" filename="modemst2.mbn"/>
+
+			<!-- #12 -->
+			<!-- First LBA: 169984 / Disk Offset: 87031808 -->
+			<!-- Last LBA : 171007 / Disk Offset: 87555584 -->
+			<!-- SSD? partition | Qualcomm -->
+			<!-- GUID: 3FB9DC5C-0AC7-5A5B-F21F-A3A0ACB39DFF -->
+			<partition label="ssd" size_in_kb="512" type="2C86E742-745E-4FDD-BFD8-B6A7AC638772" bootable="false" system="true" filename="ssd.mbn"/>
+
+			<!-- #13 -->
+			<!-- First LBA: 171008 / Disk Offset: 87556096 -->
+			<!-- Last LBA : 172031 / Disk Offset: 88079872 -->
+			<!-- DDR partition | Qualcomm -->
+			<!-- GUID: C61E6250-CC13-7EF9-BA00-A24F33E9B64F -->
+			<partition label="DDR" size_in_kb="512" type="20A0C19C-286A-42FA-9CE7-F64C3226A794" bootable="false" system="true" filename="DDR.mbn"/>
+
+			<!-- #14 -->
+			<!-- First LBA: 172032 / Disk Offset: 88080384 -->
+			<!-- Last LBA : 175103 / Disk Offset: 89652736 -->
+			<!-- FSG? partition | Qualcomm -->
+			<!-- GUID: E46F3DC2-71F9-5C6F-6C46-DCFFC3B0DF73 -->
+			<partition label="fsg" size_in_kb="1536" type="638FF8E2-22C9-E33B-8F5D-0E81686A68CB" bootable="false" system="true" filename="fsg.mbn"/>
+
+			<!-- #15 -->
+			<!-- First LBA: 175104 / Disk Offset: 89653248 -->
+			<!-- Last LBA : 176127 / Disk Offset: 90177024 -->
+			<!-- FSC? partition | Qualcomm -->
+			<!-- GUID: EDB02E13-C92C-4CD1-C931-8227A66FA603 -->
+			<partition label="fsc" size_in_kb="512" type="57B90A16-22C9-E33B-8F5D-0E81686A68CB" bootable="false" system="true" filename="fsc.mbn"/>
+
+			<!-- #16 -->
+			<!-- First LBA: 176128 / Disk Offset: 90177536 -->
+			<!-- Last LBA : 177151 / Disk Offset: 90701312 -->
+			<!-- SEC partition | Qualcomm -->
+			<!-- GUID: 6D60887C-E1E5-8A8E-29CA-1E9ED1928022 -->
+			<partition label="sec" size_in_kb="512" type="303E6AC3-AF15-4C54-9E9B-D9A8FBECF401" bootable="false" system="true" filename="sec.mbn"/>
+
+			<!-- #17 -->
+			<!-- First LBA: 177152 / Disk Offset: 90701824 -->
+			<!-- Last LBA : 178175 / Disk Offset: 91225600 -->
+			<!-- KEYSTORE? partition | Qualcomm -->
+			<!-- GUID: A1979BCC-A39A-4DA7-AFBD-03F8D38E7876 -->
+			<partition label="keystore" size_in_kb="512" type="DE7D4029-0F5B-41C8-AE7E-F6C023A02B33" bootable="false" system="true" filename="keystore.mbn"/>
+
+			<!-- #18 -->
+			<!-- First LBA: 178176 / Disk Offset: 91226112 -->
+			<!-- Last LBA : 179199 / Disk Offset: 91749888 -->
+			<!-- ENCRYPT? partition | Qualcomm -->
+			<!-- GUID: 54C1C152-C1CA-0DC7-E699-BF96F1A37E9B -->
+			<partition label="encrypt" size_in_kb="512" type="323EF595-AF7A-4AFA-8060-97BE72841BB9" bootable="false" system="true" filename="encrypt.mbn"/>
+
+			<!-- #19 -->
+			<!-- First LBA: 179200 / Disk Offset: 91750400 -->
+			<!-- Last LBA : 180223 / Disk Offset: 92274176 -->
+			<!-- EKSST? partition | Qualcomm -->
+			<!-- GUID: FC61253A-8127-B670-7537-062121E7E2E1 -->
+			<partition label="eksst" size_in_kb="512" type="45864011-CF89-46E6-A445-85262E065604" bootable="false" system="true" filename="eksst.mbn"/>
+
+			<!-- #20 -->
+			<!-- First LBA: 180224 / Disk Offset: 92274688 -->
+			<!-- Last LBA : 182271 / Disk Offset: 93322752 -->
+			<!-- USERDATA? partition | Qualcomm -->
+			<!-- GUID: 33634448-F5F7-67CC-9274-AA984BE05936 -->
+			<partition label="devinfo" size_in_kb="1024" type="1B81E7E6-F50D-419B-A739-2AEEF8DA3335" bootable="false" filename="devinfo.mbn"/>
+
+			<!-- #21 -->
+			<!-- First LBA: 182272 / Disk Offset: 93323264 -->
+			<!-- Last LBA : 183295 / Disk Offset: 93847040 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: 128F1F22-DF6E-4EED-A12B-A30365E6BA03 -->
+			<partition label="config" size_in_kb="512" type="91B72D4D-71E0-4CBF-9B8E-236381CFF17A" bootable="false" filename="config.mbn"/>
+
+			<!-- #22 -->
+			<!-- First LBA: 183296 / Disk Offset: 93847552 -->
+			<!-- Last LBA : 196607 / Disk Offset: 100662784 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: 8F581572-8AD9-A292-6683-0E1837195ED9 -->
+			<partition label="spare1" size_in_kb="6656" type="BFECABEF-1280-48D7-9F27-BDE474CF4FAA" bootable="false" filename="spare1.mbn"/>
+
+			<!-- #23 -->
+			<!-- First LBA: 196608 / Disk Offset: 100663296 -->
+			<!-- Last LBA : 208895 / Disk Offset: 106954240 -->
+			<!-- FOTA? partition | Qualcomm -->
+			<!-- GUID: 4E5D9951-2646-F229-74E6-1A8F93EFE116 -->
+			<partition label="fota" size_in_kb="6144" type="86A7CB80-84E1-408C-99AB-694F1A410FC7" bootable="false" system="true" filename="fota.mbn"/>
+
+			<!-- #24 -->
+			<!-- First LBA: 208896 / Disk Offset: 106954752 -->
+			<!-- Last LBA : 209919 / Disk Offset: 107478528 -->
+			<!-- RCT partition | Qualcomm -->
+			<!-- GUID: C9B7AC9B-E30D-E556-9829-04A6DC7B7B58 -->
+			<partition label="rct" size_in_kb="512" type="8ED8AE95-597F-4C8A-A5BD-A7FF8E4DFAA9" bootable="false" system="true" filename="rct.mbn"/>
+
+			<!-- #25 -->
+			<!-- First LBA: 209920 / Disk Offset: 107479040 -->
+			<!-- Last LBA : 212991 / Disk Offset: 109051392 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: DA07FEF9-391A-24A0-1359-DB1441ADDCC7 -->
+			<partition label="spare2" size_in_kb="1536" type="BFECABEF-1280-48D7-9F27-BDE474CF4FAA" bootable="false" system="true" filename="spare2.mbn"/>
+
+			<!-- #26 -->
+			<!-- First LBA: 212992 / Disk Offset: 109051904 -->
+			<!-- Last LBA : 215039 / Disk Offset: 110099968 -->
+			<!-- raw_resources? partition | Qualcomm -->
+			<!-- GUID: 64C19E59-F24F-3FB8-C116-A448992BE7EE -->
+			<partition label="raw_resources" size_in_kb="1024" type="4627AE27-CFEF-48A1-88FE-99C3509ADE26" bootable="false" system="true" filename="raw_resources.mbn"/>
+
+			<!-- #27 -->
+			<!-- First LBA: 215040 / Disk Offset: 110100480 -->
+			<!-- Last LBA : 217087 / Disk Offset: 111148544 -->
+			<!-- unknown partition | UNKNOWN -->
+			<!-- GUID: E0EFB05C-1FF7-F335-1E59-3C58A758491E -->
+			<partition label="raw_resourcesbak" size_in_kb="1024" type="C1DAB2CF-697D-4665-B43D-00BA47487528" bootable="false" system="true" filename="raw_resourcesbak.mbn"/>
+
+			<!-- #28 -->
+			<!-- First LBA: 217088 / Disk Offset: 111149056 -->
+			<!-- Last LBA : 229375 / Disk Offset: 117440000 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: 686176DD-14F7-AFA6-23DC-4E570B56EFC2 -->
+			<partition label="drm" size_in_kb="6144" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="drm.mbn"/>
+
+			<!-- #29 -->
+			<!-- First LBA: 229376 / Disk Offset: 117440512 -->
+			<!-- Last LBA : 241663 / Disk Offset: 123731456 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: AD1E80D7-77CB-123F-ADDE-B5DCD809E47A -->
+			<partition label="sns" size_in_kb="6144" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="sns.mbn"/>
+
+			<!-- #30 -->
+			<!-- First LBA: 241664 / Disk Offset: 123731968 -->
+			<!-- Last LBA : 262143 / Disk Offset: 134217216 -->
+			<!-- MISC? partition | Qualcomm -->
+			<!-- GUID: CF7AB122-8B80-ACE5-FDC5-98A1E5C45F6F -->
+			<partition label="misc" size_in_kb="10240" type="82ACC91F-357C-4A68-9C8F-689E1B1A23A1" bootable="false" system="true" filename="misc.mbn"/>
+
+			<!-- #31 -->
+			<!-- First LBA: 262144 / Disk Offset: 134217728 -->
+			<!-- Last LBA : 278527 / Disk Offset: 142605824 -->
+			<!-- PERSIST? partition | Qualcomm -->
+			<!-- GUID: 2FF6C353-FF76-5428-9D1F-127A4C990787 -->
+			<partition label="persist" size_in_kb="8192" type="6C95E238-E343-4BA8-B489-8681ED22AD0B" bootable="false" system="true" filename="persist.mbn"/>
+
+			<!-- #32 -->
+			<!-- First LBA: 278528 / Disk Offset: 142606336 -->
+			<!-- Last LBA : 311295 / Disk Offset: 159383040 -->
+			<!-- LG Advanced Flasher partition | LG -->
+			<!-- GUID: 4667CBE7-957D-E492-3C8D-185BDF0F4893 -->
+			<partition label="laf" size_in_kb="16384" type="98523EC6-90FE-4C67-B50A-0FC59ED6F56D" bootable="false" system="true" filename="laf.mbn"/>
+
+			<!-- #33 -->
+			<!-- First LBA: 311296 / Disk Offset: 159383552 -->
+			<!-- Last LBA : 344063 / Disk Offset: 176160256 -->
+			<!-- BOOT partition | Qualcomm -->
+			<!-- GUID: 3A991DC7-0155-0BB4-E796-F47D91C72180 -->
+			<partition label="boot" size_in_kb="16384" type="20117F86-E985-4357-B9EE-374BC1D8487D" bootable="false" system="true" filename="boot.mbn"/>
+
+			<!-- #34 -->
+			<!-- First LBA: 344064 / Disk Offset: 176160768 -->
+			<!-- Last LBA : 376831 / Disk Offset: 192937472 -->
+			<!-- RECOVERY? partition | Qualcomm -->
+			<!-- GUID: DBE5B4EC-AC05-B591-FB18-58A4414CDF46 -->
+			<partition label="recovery" size_in_kb="16384" type="9D72D4E4-9958-42DA-AC26-BEA7A90B0434" bootable="false" system="true" filename="recovery.mbn"/>
+
+			<!-- #35 -->
+			<!-- First LBA: 376832 / Disk Offset: 192937984 -->
+			<!-- Last LBA : 425983 / Disk Offset: 218103296 -->
+			<!-- BOOT partition | Qualcomm -->
+			<!-- GUID: A5E082BA-8EE8-C661-33E7-4F0DCF422B9C -->
+			<partition label="factory" size_in_kb="24576" type="20117F86-E985-4357-B9EE-374BC1D8487D" bootable="false" system="true" filename="factory.mbn"/>
+
+			<!-- #36 -->
+			<!-- First LBA: 425984 / Disk Offset: 218103808 -->
+			<!-- Last LBA : 442367 / Disk Offset: 226491904 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: FD295037-E481-D248-45E5-CFECA5D76DBD -->
+			<partition label="mpt" size_in_kb="8192" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="mpt.mbn"/>
+
+			<!-- #37 -->
+			<!-- First LBA: 442368 / Disk Offset: 226492416 -->
+			<!-- Last LBA : 5611519 / Disk Offset: 2873097728 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: 0A957E8E-D531-F935-2253-480096AF2620 -->
+			<partition label="system" size_in_kb="2584576" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="system.mbn"/>
+
+			<!-- #38 -->
+			<!-- First LBA: 5611520 / Disk Offset: 2873098240 -->
+			<!-- Last LBA : 6021119 / Disk Offset: 3082812928 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: 0553BA5E-1FAA-8239-D9EE-3F2BF2BCB2F7 -->
+			<partition label="cache" size_in_kb="204800" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="cache.mbn"/>
+
+			<!-- #39 -->
+			<!-- First LBA: 6021120 / Disk Offset: 3082813440 -->
+			<!-- Last LBA : 15253503 / Disk Offset: 7809793536 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: 7E599609-EB5E-9594-1B33-C1E4EB0415E5 -->
+			<partition label="userdata" size_in_kb="4616192" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="userdata.mbn"/>
+
+			<!-- #40 -->
+			<!-- First LBA: 15253504 / Disk Offset: 7809794048 -->
+			<!-- Last LBA : 15269854 / Disk Offset: 7818165248 -->
+			<!-- Basic data partition / Linux filesystem data | Windows / Linux -->
+			<!-- GUID: 93A110EB-2382-3262-6663-A1B4DFDC4110 -->
+			<partition label="grow" size_in_kb="8175" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" system="true" filename="grow.mbn"/>
+
+		</physical_partition>
+	</configuration>
